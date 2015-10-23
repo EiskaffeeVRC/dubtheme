@@ -9,6 +9,12 @@ Team
 - DJFC
 
 -------------
+How to use
+---
+
+...
+
+-------------
 Links
 ---
 - https://dubtrack.fm/join/chilloutroom
