@@ -1,5 +1,5 @@
 # DX Custom Theme
-A Custom ChilloutMusic DubX Theme For Dubtrackfm
+**A Custom ChilloutMusic DubX Theme For Dubtrackfm**
 
 -------------
 Team
