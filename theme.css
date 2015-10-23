@@ -108,8 +108,8 @@ a:visited {
     color: rgba(81, 156, 215, 1);
 }
 #player-controller ul li a.playbtn .queue-info {
-    background: #519CD7;
-    color: #111;
+    background: transparent;
+    color: #519CD7;
     font-size: 0.8em;
 }
 
