@@ -11,8 +11,9 @@ Team
 -------------
 How to use
 ---
-
-Soon™
+1. Go to the dubx menu in dubtrack.fm.
+2. Tick the button that says `Community CSS`. [Image] (http://puu.sh/kUvmr/f236726e66.png)
+3. **That's it!** you now have the chilloutmusic theme!
 
 -------------
 Links
