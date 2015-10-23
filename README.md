@@ -5,4 +5,6 @@ A Custom ChilloutMusic DubX Theme For Dubtrackfm
 - https://chilloutmusic.fm
 
 Authors:
-* Kris, Mitch, DJFC
+* Kris
+* Mitch 
+* DJFC
