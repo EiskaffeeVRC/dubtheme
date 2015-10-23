@@ -112,6 +112,9 @@ a:visited {
     color: #519CD7;
     font-size: 0.8em;
 }
+#player-controller ul li a.playbtn:hover .queue-info {
+    color: #000;
+}
 
 /* Left Side Menu                       = = = = = = = = = = =*/
 #main-menu-left a.close-menu span {
