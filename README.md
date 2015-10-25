@@ -5,7 +5,7 @@
 Team
 ---
 - Kris
-- Mitch 
+- [Mitch](https://mitchdev.net)
 - DJFC
 
 -------------
