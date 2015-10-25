@@ -162,6 +162,9 @@ a:visited {
 #main_player .player_sharing span:hover {
     color: #519CD7;
 }
+#main_player .player_sharing span.duration {
+	text-align: center !important;
+}
 #main_player:after {
     background: #111;
     color: #111;
