@@ -4,9 +4,9 @@
 -------------
 Team
 ---
-- [Kris]()
+- [Kris](#)
 - [Mitch](https://mitchdev.net)
-- [DJFC]()
+- [DJFC](#)
 
 -------------
 How to use
