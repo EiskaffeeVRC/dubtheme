@@ -163,7 +163,8 @@ a:visited {
     color: #519CD7;
 }
 #main_player .player_sharing span.duration {
-	text-align: center !important;
+	text-align: center;
+	float: none;
 }
 #main_player:after {
     background: #111;
