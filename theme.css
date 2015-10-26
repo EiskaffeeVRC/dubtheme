@@ -1,5 +1,9 @@
-a:active, a:focus, a:hover,
-#main-menu-left a.room-active-link,
+a:active, a:focus, a:hover {
+  color: #519CD7;
+}
+#main-menu-left a.room-active-link {
+  color: #519CD7;
+}
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron {
   color: #519CD7;
 }
