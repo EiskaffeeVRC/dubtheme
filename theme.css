@@ -1,6 +1,8 @@
-a:active, a:focus, a:hover {
-  color: #519CD7;
-}
+a:active, a:focus, a:hover,
+#main-menu-left a.room-active-link,
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron {
   color: #519CD7;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
+  background: #519CD7;
 }
