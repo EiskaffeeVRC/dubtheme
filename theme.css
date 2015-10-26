@@ -10,3 +10,6 @@ a:active, a:focus, a:hover {
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
   background: #519CD7;
 }
+#player-controller .right ul li .dubup.voted {
+  background: #519CD7;
+}
