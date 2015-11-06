@@ -1,4 +1,4 @@
-# DX and CMS Custom Theme
+# DubX and CMS Custom Theme
 **A Custom ChilloutMusic DubX and CMS Theme For Dubtrackfm**
 
 -------------
