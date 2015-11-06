@@ -1,5 +1,5 @@
-# DX Custom Theme
-**A Custom ChilloutMusic DubX Theme For Dubtrackfm**
+# DX and CMS Custom Theme
+**A Custom ChilloutMusic DubX and CMS Theme For Dubtrackfm**
 
 -------------
 Team
@@ -11,8 +11,8 @@ Team
 -------------
 How to use
 ---
-1. Go to the dubx menu in dubtrack.fm.
-2. Tick the button that says `Community CSS`. [Image] (http://puu.sh/kUvmr/f236726e66.png)
+1. Go to the dubx or CMS menu in dubtrack.fm.
+2. Click the button that says `Community CSS`.
 3. **That's it!** you now have the chilloutmusic theme!
 
 -------------
