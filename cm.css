@@ -765,6 +765,7 @@ body {
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist:hover,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .text-button.remove_dj_all:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions .img_bg.add_to_queue:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .search-item .actions .img_bg.add_to_playlist:hover,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_queue:hover,
@@ -781,6 +782,7 @@ body {
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .set_song_to_top_queue,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist,
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .text-button.remove_dj_all,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_queue,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_playlist,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.remove_icon,
@@ -792,9 +794,8 @@ body {
     background: rgba(40,40,45,1);
     color: #eee;
 }
-/*
+#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .browserPlaylistItems.display-mod-controls .room-queue-item .actions .remove_dj,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.remove_icon,
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_playlist {
     margin: .3rem 4.5rem 0 0;
 }
@@ -804,7 +805,6 @@ body {
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item:hover .timeDisplay {
     display: block;
 }
-*/
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .queue-item .actions .img_bg.add_to_playlist:hover span.icon-heart:before,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .history-item .actions .img_bg.add_to_playlist:hover span.icon-heart:before,
 #browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item .actions .img_bg.add_to_playlist:hover span.icon-heart:before {
