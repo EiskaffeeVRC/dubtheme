@@ -323,27 +323,23 @@ body {
 }
 
     /* Usernames */
-#chat .chat-container ul.chat-main li .activity-row .text p a.username, 
-#chat .chat-container ul.chat-main li .activity-row .text p a.username:visited,
-#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username {
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username, 
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username:visited {
     display: block;
     font-size: .9rem;
     line-height: 1.2;
     font-weight: 400;
-    color: #999;
     opacity: 1;
 }
-#chat .chat-container ul.chat-main li .activity-row .text p a.username:hover {
+#chat .chat-container .chat-messages .chat-main li .activity-row .text a.username:hover {
     color: #eee;
 }
-#chat .chat-container ul.chat-main li.current-chat-user .activity-row .text p a.username
-{
+#chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text a.username {
     color: #FFDD6F;
 }
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
-#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username  /* Chillbot */
-{
+#chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
     color: #CC5A93!important;
     font-weight: 600!important;
     font-size: 1em;
@@ -357,31 +353,37 @@ body {
 }
 
     /* Special Users */
-#chat .chat-main .isCo-owner .username, 
-#chat .chat-main .isCo-owner .username:hover, 
-#chat .chat-main .isCo-owner .username:visited {
-    color: #d3dce5!important;
-}
-#chat .chat-main .isManager .username, 
-#chat .chat-main .isManager .username:hover, 
-#chat .chat-main .isManager .username:visited {
+#chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username, 
+#chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:visited {
     color: #d3dce5;
 }
-#chat .chat-main .isMod .username, 
-#chat .chat-main .isMod .username:hover, 
-#chat .chat-main .isMod .username:visited {
+#chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username, 
+#chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:visited {
     color: #d3dce5;
 }
-#chat .chat-main .isVip .username, 
-#chat .chat-main .isVip .username:hover, 
-#chat .chat-main .isVip .username:visited {
+#chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username,
+#chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username:visited {
+    color: #d3dce5;
+}
+#chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username, 
+#chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username:visited {
     color: #abc;
 }
-#chat .chat-main .isResident-dj .username, 
-#chat .chat-main .isResident-dj .username:hover, 
-#chat .chat-main .isResident-dj .username:visited {
-    color: #999!important;
+#chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username, 
+#chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username:visited {
+    color: #999;
 }
+#chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username, 
+#chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username:visited {
+    color: #999;
+}
+
 /*
 #chat .chat-main .isOwner .username:before {
     content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/host.png);
@@ -420,6 +422,14 @@ body {
     top: 3px;
     padding-right: 2px;
 }
+/*
+#chat .chat-main .isDefault .username:before {
+    content: url(https://rawgit.com/PossiblyKris/DubtrackCSS/master/assets/icons/user.png);
+    position: relative;
+    top: 2px;
+    padding-right: 4px;
+}
+*/
 
 /* User tab */
 #main_avatar_room #main-user-list-room #avatar-list li p.username{
