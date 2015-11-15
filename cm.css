@@ -63,11 +63,11 @@ body {
     color: #eee;
 }
 #header-global .header-left-navigation h1 {
-    width: 32px;
+    width: 32px !important;
     width: 2rem;
-    height: 32px;
+    height: 32px !important;
     height: 2rem;
-    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/icons/cm.png);
+    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/icons/cm.png) !important;
     background-size: 2rem 2rem;
 }
 /*
