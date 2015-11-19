@@ -584,6 +584,12 @@ body {
     background: #5A93CC;
     color: #222229;
 }
+#main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-blocked:before {
+    content: "\e90b";
+}
+#main_player .player_sharing .player-controller-container .hideVideo-el span.icon-eye-unblocked:before {
+    content: "\e90a";
+}
 #main_player .play-song-link {
     background: rgba(10,10,15,0.75);
 }
