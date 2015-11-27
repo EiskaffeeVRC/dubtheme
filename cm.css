@@ -102,7 +102,7 @@ body {
 #player-controller .left ul li.imgEl {
     cursor: pointer;
 }
-#player-controller .left ul li .infoContainerInner .currentDJSong {
+#player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
     color: #5A93CC;
     font-size: .9rem;
 }
