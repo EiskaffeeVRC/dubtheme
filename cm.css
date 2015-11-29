@@ -298,12 +298,14 @@ body {
     text-align: center;
     text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 }
-#chat .chat-container .chat-messages .chat-main li.system, 
-#chat .chat-container .chat-messages .chat-main li.system-error {
+#chat .chat-container .chat-messages .chat-main li.system {
     color: #CC5A93!important;
 }
+#chat .chat-container .chat-messages .chat-main li.system-error {
+    color: #FF4060;
+}
 #chat .chat-container .chat-messages .chat-main li.chat-system-loading {
-    color: #FF3558!important;
+    color: #FF4060!important;
 }
 #chat .chat-container .chat-messages .chat-main li {
     font-size: .9rem;
