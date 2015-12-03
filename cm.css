@@ -220,6 +220,17 @@ body {
 }
 
 /* Left side Menu and Lobby */
+#main-menu-left {
+    padding: 5rem 0 0;
+        background: linear-gradient(to bottom, rgba(10,10,15,0.66) 0%, rgba(10,10,15,0.75) 10%, rgba(10,10,15,0.75) 90%, rgba(10,10,15,0.66) 101%)!important;
+    position: fixed;
+    height: calc(100% - 114px);
+    left: -224px;
+    left: -14rem;
+    top: 58px;
+    width: 215px;
+    
+}
 #main-menu-left a,
 #main-menu-left a.room-active-link {
     color: #ddd;
@@ -1035,6 +1046,9 @@ body {
 .for_content_version {
     color: #aaa!important;
 }
+.for_content_version:hover {
+    color: #fff!important;
+}
 .for_content_c {
     color: #5A93CC!important;
     border-bottom: 1px solid #5A93CC!important;
@@ -1043,8 +1057,9 @@ body {
 .for_content_off {
     color: #999!important;
 }
-.for_content_p:hover {
-    color: #5A93CC!important;
+li.for_content_li:hover .for_content_p,
+li.for_content_li:hover .for_content_off {
+    color: #fff!important;
 }
     /* Dialog */
 .onErr .container {
