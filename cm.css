@@ -281,9 +281,12 @@ body {
 }
 #chat .chat-container ul.chat-main li:focus .chatDelete, 
 #chat .chat-container ul.chat-main li:hover .chatDelete {
-    color: #5A93CC!important;
+    color: #eee!important;
     opacity: 0.75;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
+}
+#chat .chat-container ul.chat-main li .chatDelete:hover {
+    color: #CC5A93!important;
 }
     /* Chat messages */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message a {
@@ -298,14 +301,28 @@ body {
     text-align: center;
     text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 }
-#chat .chat-container .chat-messages .chat-main li.system {
+#chat .chat-container .chat-messages .chat-main li.system,
+#chat .chat-container .chat-messages .chat-main li.chat-system-loading,
+#chat .chat-container .chat-messages .chat-main li.system-error,
+.system-dubdown,
+.system-userddub,
+.system-mute,
+.system-unmute {
+    color: #FF4060!important;
+}
+.system-leave,
+.system-userleave {
     color: #CC5A93!important;
 }
-#chat .chat-container .chat-messages .chat-main li.system-error {
-    color: #FF4060;
+.system-join,
+.system-userjoin {
+    color: #5A93CC!important;
 }
-#chat .chat-container .chat-messages .chat-main li.chat-system-loading {
-    color: #FF4060!important;
+.system-pause,
+.system-resume,
+.system-dubup,
+.system-userudub {
+    color: #93CC5A!important;
 }
 #chat .chat-container .chat-messages .chat-main li {
     font-size: .9rem;
@@ -356,6 +373,8 @@ body {
 #chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text a.username {
     color: #FFDD6F;
 }
+
+    /* Special Users */
 #chat .chat-container ul.chat-main li.user-5600e1bf2e803803000fee40 .activity-row .text p a.username, /* Roomba */
 #chat .chat-container ul.chat-main li.user-56208ef772fbd14400119c64 .activity-row .text p a.username, /* Roomba new */
 #chat .chat-container ul.chat-main li.user-55ff1b594c828c03008bd5f7 .activity-row .text p a.username { /* Chillbot */
@@ -370,37 +389,37 @@ body {
     top: 3px;
     padding-right: 4px;
 }
-
-    /* Special Users */
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username, 
-#chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:visited {
-    color: #d3dce5;
+    color: #d3dbe0;
 }
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username, 
-#chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:visited {
-    color: #d3dce5;
+    color: #d3dbe0;
 }
 #chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username,
-#chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username:visited {
-    color: #d3dce5;
+    color: #d3dbe0;
 }
 #chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username, 
-#chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username:visited {
-    color: #abc;
+    color: #a3abaf;
 }
 #chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username, 
-#chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username:visited {
     color: #999;
 }
 #chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username, 
-#chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username:visited {
     color: #999;
+}
+#chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username:hover, 
+#chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username:hover {
+    color: #eee;
 }
 
 /*
@@ -556,7 +575,7 @@ body {
     margin-right: 0;
 }
     /* Room info */
-#room-info-display .room-info-display-container > h2 > span > i {
+#room-info-display .room-info-display-container h2 span i {
     color: #5A93CC;
 }
 #room-info-display .room-info-display-wrapper .description {
