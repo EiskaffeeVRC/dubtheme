@@ -1023,6 +1023,9 @@ body {
     background: none;
     color: #eee;
 }
+#roomInfoUpdate .mid textarea {
+    resize: vertical;
+}
 #roomFormUpdate .form-horizontal .mid .control-group select option {
     background: rgba(20,20,25,0.9);
     color: #ddd;
