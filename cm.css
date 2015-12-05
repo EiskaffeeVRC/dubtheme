@@ -1013,6 +1013,9 @@ body {
 #roomFormUpdate .mid label.display-block, #roomInfoModal .mid label.display-block {
     color: #5A93CC;
 }
+#roomFormUpdate .mid textarea {
+    resize: vertical;
+}
 #roomFormUpdate .mid input, 
 #roomFormUpdate .mid select, 
 #roomFormUpdate .mid textarea, 
@@ -1022,9 +1025,6 @@ body {
     border: 1px solid #878c8e;
     background: none;
     color: #eee;
-}
-#roomInfoUpdate .mid textarea {
-    resize: vertical;
 }
 #roomFormUpdate .form-horizontal .mid .control-group select option {
     background: rgba(20,20,25,0.9);
