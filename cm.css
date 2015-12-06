@@ -509,11 +509,13 @@ body {
 #chat .chat-options .chat-option-buttons span.active i {
     color: #222229;
 }
+#chat .chat-options .chat-option-buttons.cmsbtns span,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-display span,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-sound span {
     background: rgba(51,51,51,0.25);
     color: #aaa;
 }
+#chat .chat-options .chat-option-buttons.cmsbtns span,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-display span:hover,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-sound span:hover {
     background: #5A93CC;
