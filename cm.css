@@ -1100,7 +1100,7 @@ li.for_content_li:hover .for_content_off {
 
 /* CMS */
 .main_content {
-    background: rgba(10,10,15,0.66);
+    background: rgba(10,10,15,0.66) !important;
 }
 /* User avatar blacklist */
 /*
