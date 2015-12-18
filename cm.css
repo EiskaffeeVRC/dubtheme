@@ -509,11 +509,13 @@ body {
 #chat .chat-options .chat-option-buttons span.active i {
     color: #222229;
 }
+#chat .chat-options .chat-option-buttons.cmsbtns span,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-display span,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-sound span {
     background: rgba(51,51,51,0.25);
     color: #aaa;
 }
+#chat .chat-options .chat-option-buttons.cmsbtns span:hover,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-display span:hover,
 #chat .chat-options .chat-option-buttons.chat-option-buttons-sound span:hover {
     background: #5A93CC;
@@ -1013,6 +1015,9 @@ body {
 #roomFormUpdate .mid label.display-block, #roomInfoModal .mid label.display-block {
     color: #5A93CC;
 }
+#roomFormUpdate .mid textarea {
+    resize: vertical;
+}
 #roomFormUpdate .mid input, 
 #roomFormUpdate .mid select, 
 #roomFormUpdate .mid textarea, 
@@ -1093,7 +1098,10 @@ li.for_content_li:hover .for_content_off {
     font-weight: 700!important;
 }
 
-
+/* CMS */
+.main_content {
+    background: rgba(10,10,15,0.66) !important;
+}
 /* User avatar blacklist */
 /*
 #chat .chat-container .chat-messages .chat-main li.user- .stream-item-content .image_row {

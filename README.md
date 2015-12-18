@@ -1,5 +1,5 @@
-# DubX and CMS Custom Theme
-**A Custom ChilloutMusic DubX and CMS Theme For Dubtrackfm**
+# Chillout Music Community Theme
+**A custom theme for [dubtrack.fm](https://dubtrack.fm/join/chilloutroom)**
 
 -------------
 Team
