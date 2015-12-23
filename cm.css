@@ -91,59 +91,68 @@ body {
 */
 /* Bottom bar */
 #player-controller {
-    background: rgba(10,10,15,0.42);
+    background: rgba(0,0,0,0);
 }
 #player-controller .left {
-    background: rgba(10,10,15,0.42);
+    background: rgba(10,10,15,0.66);
 }
 #player-controller .right {
-    background: rgba(0,0,0,0.0);
+    background: rgba(10,10,15,0.66);
 }
+@media screen and (min-width: 72em) {
+#player-controller .left {
+    width: 80%;
+    padding-right: 0rem;
+}}
+@media screen and (min-width: 72em) {
+#player-controller .right {
+    width: 20%;
+}}
 #player-controller .left ul li.imgEl {
     cursor: pointer;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .currentDJSong {
-    color: #5A93CC;
-    font-size: .9rem;
+    color: #777;
+    font-size: .95rem;
+}
+#player-controller .left ul li.infoContainer .infoContainerInner .currentTime,
+#player-controller .left ul li.infoContainer .infoContainerInner .currentSong {
+    color: #ddd;
 }
 #player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
     background: #5A93CC;
 }
-#player-controller .right ul li .dubup:hover {
-    background: #5A93CC;
-    color: #222229;
-    opacity: 0.66;
+#player-controller .right ul li .dubup:hover,
+#player-controller .right ul li .dubup.voted,
+#player-controller .right ul li .dubdown:hover,
+#player-controller .right ul li .dubdown.voted,
+#player-controller .right ul li .add-to-playlist-button.grabbed {
+    background: rgba(0,0,0,0);
 }
-#player-controller .right ul li .dubup.voted {
-    background: #5A93CC;
-    opacity: 1;
-}
-#player-controller .right ul li .dubup.voted span {
-    color: #222229;
-}
-#player-controller .right ul li .dubup .icon-arrow-up {
-    color: #5A93CC;
-}
-#player-controller .right ul li .dubdown:hover {
-    background: #935ACC;
-    color: #222229;
-    opacity: 0.66;
-}
-#player-controller .right ul li .dubdown.voted {
-    background: #935ACC;
-    opacity: 1;
-}
-#player-controller .right ul li .dubdown.voted span {
-    color: #222229;
-}
-#player-controller .right ul li .dubdown .icon-arrow-down {
-    color: #935ACC;
-}
-#player-controller .right ul li .add-to-playlist span.icon-heart:before{
+#player-controller .right ul li a.dubup.voted span,
+#player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
     color: #93CC5A;
 }
-#player-controller .right ul li .add-to-playlist:hover span.icon-heart:before{
+#player-controller .right ul li a.dubup .icon-arrow-up,
+#player-controller .right ul li a.dubdown .icon-arrow-down,
+#player-controller .right ul li .add-to-playlist-button.grabbed span {
+    color: #ccc;
+}
+#player-controller .right ul li a.dubdown.voted span,
+#player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
     color: #CC5A93;
+}
+#player-controller .right ul li a,
+#player-controller .right ul li a span.icon-heart:before {
+    color: #ccc;
+}
+#player-controller .right ul li a:hover span.icon-heart:before,
+#player-controller .right ul li .add-to-playlist-button.grabbed span,
+#player-controller .right ul li .add-to-playlist-button.grabbed .icon-heart:before {
+    color: #935ACC;
+}
+#player-controller .right ul li .display-browser:hover .icon-playlist {
+    color: #5A93CC;
 }
 
 /* Right side menu */
@@ -1102,6 +1111,8 @@ li.for_content_li:hover .for_content_off {
 .main_content {
     background: rgba(10,10,15,0.66) !important;
 }
+
+
 /* User avatar blacklist */
 /*
 #chat .chat-container .chat-messages .chat-main li.user- .stream-item-content .image_row {
