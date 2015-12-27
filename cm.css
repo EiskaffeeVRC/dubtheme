@@ -577,6 +577,9 @@ body {
 #main_player {
     background: rgba(10,10,15,0.66);
 }
+#main_player .player_header span {
+    border-radius: 1.2rem;
+}
 #main_player .player_header span.active {
     background: #5A93CC;
     color: #222229;
