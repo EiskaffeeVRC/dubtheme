@@ -312,35 +312,28 @@ body {
     text-align: center;
     text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
 }
-#chat .chat-container .chat-messages .chat-main li.system,
-#chat .chat-container .chat-messages .chat-main li.chat-system-loading,
-#chat .chat-container .chat-messages .chat-main li.system-error,
 .system-mute,
 .system-unmute {
     color: #0ff!important;
 }
-.system-join,
-.system-userjoin {
+.system-join {
     color: #5A93CC!important;
 }
-.system-leave,
-.system-userleave {
+.system-leave {
     color: #935ACC!important;
 }
-.system-dubup,
-.system-userudub {
+.system-dubup {
     color: #93CC5A!important;
 }
-.system-dubdown,
-.system-userddub {
+.system-dubdown {
     color: #FF4060!important;
 }
 .system-grab {
-    color: #CC5A93;
+    color: #CC5A93!important;
 }
 .system-resume,
 .system-pause {
-    color: #5ACC93;
+    color: #5ACC93!important;
 }
 #chat .chat-container .chat-messages .chat-main li {
     font-size: .9rem;
