@@ -433,7 +433,6 @@ body {
     color: #eee;
 }
 
-/*
 #chat .chat-main .isOwner .username:before {
     content: url(https://rawgit.com/ChilloutMusica/dubtheme/master/icons/host.png);
     position: relative;
@@ -471,14 +470,14 @@ body {
     top: 3px;
     padding-right: 2px;
 }
-/*
+
 #chat .chat-main .isDefault .username:before {
     content: url(https://rawgit.com/ChilloutMusica/dubtheme/master/icons/user.png);
     position: relative;
     top: 2px;
     padding-right: 4px;
 }
-*/
+
 
 /* User tab */
 #main_avatar_room #main-user-list-room #avatar-list li p.username{
