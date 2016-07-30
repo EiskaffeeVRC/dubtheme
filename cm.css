@@ -428,7 +428,7 @@ a, body, button, input, select, textarea{
 }
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:visited {
-    color: #d3dbe0;
+  color: #F00; text-shadow: 1px 1px 5px #F00; background: transparent url(http://prankcalling.org/S/RN.gif);
 }
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:visited {
