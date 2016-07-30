@@ -47,24 +47,16 @@ a, body, button, input, select, textarea{
 #header-global .header-right-navigation .user-messages .message-counter {
     color: #fff;
 }
-/*
+
 #header-global .header-left-navigation h1 {
     width: 32px !important;
     width: 2rem;
     height: 32px !important;
     height: 2rem;
-    background-image: url(https://raw.githubusercontent.com/PossiblyKris/DubtrackCSS/master/assets/icons/cm.png) !important;
+    background-image: url(https://puu.sh/qk6SQ/57d229c771.png) !important;
     background-size: 2rem 2rem;
 }
-*/
-/*
-#main-room-active-link .room-name:after {
-    content: " Sample text";
-    display: block;
-    position: absolute;
-    margin-top: -24px;
-    margin-left: 166px;
-}
+
 */
 /* Bottom bar */
 /*@media screen and (min-width: 72em) {}*/
