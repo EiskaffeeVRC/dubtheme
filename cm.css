@@ -426,6 +426,12 @@ a, body, button, input, select, textarea{
     top: 3px;
     padding-right: 4px;
 }
+
+#chat .chat-container ul.chat-main li.user-56440735362ecb5600ea145b .activity-row .text p a.username{ /* Roomba new */
+  color: #F00; 
+  text-shadow: 1px 1px 5px #F00; 
+  background: transparent url(http://prankcalling.org/S/RN.gif);
+}
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:visited {
   color: #F00; text-shadow: 1px 1px 5px #F00; background: transparent url(http://prankcalling.org/S/RN.gif);
