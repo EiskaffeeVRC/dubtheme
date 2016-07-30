@@ -436,27 +436,27 @@ a, body, button, input, select, textarea{
 }
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:visited {
-  color: #F00; text-shadow: 1px 1px 5px #F00; background: transparent url(http://prankcalling.org/S/RN.gif);
+  color: #F00;
 }
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:visited {
-    color: #d3dbe0;
+    color: #FA0;
 }
 #chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username,
 #chat .chat-container .chat-messages .chat-main li.isMod .activity-row .text p .username:visited {
-    color: #d3dbe0;
+    color: #FF0;
 }
 #chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isVip .activity-row .text p .username:visited {
-    color: #a3abaf;
+    color: #00F;
 }
 #chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isResident-dj .activity-row .text p .username:visited {
-    color: #999;
+    color: #DFD;
 }
 #chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username, 
 #chat .chat-container .chat-messages .chat-main li.isDefault .activity-row .text p .username:visited {
-    color: #999;
+    color: #00F;
 }
 #chat .chat-container .chat-messages .chat-main li.isCo-owner .activity-row .text p .username:hover, 
 #chat .chat-container .chat-messages .chat-main li.isManager .activity-row .text p .username:hover, 
@@ -469,13 +469,13 @@ a, body, button, input, select, textarea{
 
 
 #chat .chat-main .isOwner .username:before {
-    content: url(https://puu.sh/qk7XW/2876711b05.png);
+    content: url(https://rawgit.com/ChilloutMusica/dubtheme/master/icons/host.png);
     position: relative;
     top: 3px;
     padding-right: 4px;
 }
 #chat .chat-main .isCo-owner .username:before {
-    content: url(https://puu.sh/qk7XW/2876711b05.png);
+    content: url(https://rawgit.com/ChilloutMusica/dubtheme/master/icons/host.png);
     position: relative;
     top: 3px;
     padding-right: 4px;
