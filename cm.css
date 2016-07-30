@@ -406,7 +406,9 @@ a, body, button, input, select, textarea{
     color: #fff;
 }
 #chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text p a.username {
-    color: #FFDD6F;
+  color: #F00; 
+  text-shadow: 1px 1px 5px #F00; 
+  background: transparent url(http://prankcalling.org/S/RN.gif);
 }
 
     /* Special Users */
